@@ -1,0 +1,24 @@
+package atividade11;
+
+public class Exemplo2{
+	
+    int[][] matriz = new int[3][3] ;
+
+    	// Preenchendo a matriz
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            matriz[i][j] = (i + 1) * (j + 2);
+    }
+
+    // Exibindo os valores
+    System.out.println("Conteúdo da Matriz:");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            System.out.print(matriz[i][j] + "t");
+        }
+        System.out.println();
+
+    }
+   }
+  }
+}
